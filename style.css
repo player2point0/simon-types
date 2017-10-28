@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: whitesmoke;
+    font-family: futura;
+}
+
+#display{
+    color: black;
+    height: calc(100vh - 40vw);
+    width: fit-content;
+    margin: auto;
+    padding: 5vw;
+    font-size: 10vw;
+}
+
+#keyboard{
+    height: auto;
+}
+
+#random{
+    border: none;
+    padding: 5px;
+    background-color: black;
+    position: absolute;
+    font-size: 3.5vw;
+}
+
+#random:hover{
+    border: 1px solid black;
+}
+
+#random:active{
+    background-color: red
+}
+
+.row{
+    width: fit-content;
+    margin: auto;
+}
+
+.key{
+    border: 1px solid white;
+    width: calc(10vw - 4px);
+    height: calc(10vw - 4px);
+    text-align: center;
+    background-color: black;
+    font-size: 7.5vw;
+    font-family: monospace;
+    display: inline-block;
+}
