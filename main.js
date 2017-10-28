@@ -138,7 +138,7 @@ function Load()
         if(arr == null) arr = [];//allows the arr to passed around
 
         $.ajax({
-			url: "http://setgetgo.com/randomword/get.php",
+			url: "https://setgetgo.com/randomword/get.php",
 			dataType: "jsonp",
             
             success: function(response)
