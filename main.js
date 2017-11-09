@@ -139,7 +139,8 @@ function Load()
 
         $.ajax({
 			url: "https://setgetgo.com/randomword/get.php",
-			dataType: "jsonp",
+            dataType: "jsonp",
+            jsonp: "jsonp",            
             
             success: function(response)
             {
